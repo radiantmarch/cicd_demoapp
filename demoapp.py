@@ -19,7 +19,7 @@ class HelloUniverse(Resource):
         text = "Hello Universe!"
         return text
 
-pi.add_resource(HelloUniverse, '/hello/universe')
+api.add_resource(HelloUniverse, '/hello/universe')
 
 if __name__ == '__main__':
     # Runn Flask
