@@ -14,7 +14,7 @@ class HelloWorld(Resource):
 api.add_resource(HelloWorld, '/hello/world')
 
 
-ass HelloUniverse(Resource):
+class HelloUniverse(Resource):
     def get(self):
         text = "Hello Universe!"
         return text
